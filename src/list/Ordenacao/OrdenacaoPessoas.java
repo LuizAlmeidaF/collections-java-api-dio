@@ -29,6 +29,13 @@ public class OrdenacaoPessoas {
     }
 
     public static void main(String[] args) {
-        
+        OrdenacaoPessoas pessoasList = new OrdenacaoPessoas();
+
+        pessoasList.adicionarPessoa("Luiz", 22, 1.77);
+        pessoasList.adicionarPessoa("Ruth", 24, 1.69);
+        pessoasList.adicionarPessoa("Pedro", 20, 1.65);
+
+        System.out.println("A lista das pessoas ordenadas por sua idade é: \n" + pessoasList.ordenarPorIdade());
+        System.out.println("A lista ordenada pela altura é: \n" + pessoasList.ordenarPorAltura());
     }
 }
