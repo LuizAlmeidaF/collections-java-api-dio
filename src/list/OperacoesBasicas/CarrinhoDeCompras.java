@@ -48,7 +48,5 @@ public class CarrinhoDeCompras {
         carrinhoDeCompras1.exibirItens();
 
         System.out.println(String.format("O valor total do seu carrinho de compras é: %.2f", carrinhoDeCompras1.calcularValor()));
-
-
     }
 }
