@@ -1,4 +1,4 @@
 package set.Pesquisa;
 
-public class SetPes {
+public class Tarefa {
 }
